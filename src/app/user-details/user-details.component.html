@@ -1,0 +1,16 @@
+<div>
+  
+    <div style="width: calc(100% - 40px);text-align: right;margin:10px 20px;">
+     
+       <button mat-raised-button color="primary" class="backBtn" (click)="callBack()"><i class="material-icons">keyboard_arrow_left</i>back</button>
+     </div>
+     <h5 style="width:calc(100% - 40px); font-size: 18px;margin: 10px 20px;text-decoration: underline;">User Repositories : {{userId}}</h5>
+    <span>{{avatar_url}}</span>
+    <span>{{gravatar_id === '' ? "NA": gravatar_id}}</span>
+    <span>{{url}}</span>
+    <span>{{html_url}}</span>
+    <span>{{followers_url}}</span>
+    <span>{{following_url}}</span>
+    <span>{{gists_url}}</span>
+
+</div>
